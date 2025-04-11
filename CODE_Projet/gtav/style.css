@@ -1,0 +1,33 @@
+a { 
+    color: inherit;
+    text-decoration: none;
+} 
+
+body{
+    font-family: helvetica, sans-serif;
+}
+
+header{
+    background-color: #C66461;
+    color: white;
+    width: 100%;
+    height: 132px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    line-height: 3rem;
+}
+
+header button{
+    border: none;
+    background-color: #B87274;
+    color:white;
+    margin-right: 50px;
+}
+
+*{
+    margin: 0;    
+}
