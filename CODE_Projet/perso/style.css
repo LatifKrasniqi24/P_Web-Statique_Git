@@ -121,13 +121,12 @@ body {
     /*padding: 1rem;*/
     border-radius: 50px;
     width: 645px;
-    height: 707px;
+    height: auto ;
     /*margin-left: 160px;
     margin-top: 18vh;*/
     text-align: center;
     font-size: 32px;
     padding: 40px;
-    padding-top: 80px;
     color: white;
     box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
 }
@@ -153,13 +152,12 @@ body {
 
 #text1{
     grid-area: a;
-    height: 707px;
+    height: auto;
     margin-bottom:20px;
 }
 
 #text2{
-    padding-top: 90px;
-    height: 660px;
+    height: auto;
 }
 
 #mich{
@@ -170,8 +168,7 @@ body {
 }
 
 #text3{
-    padding-top: 90px;
-    height: 660px;
+    height: auto;
 }
 
 #trev{
