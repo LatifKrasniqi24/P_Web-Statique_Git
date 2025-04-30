@@ -11,7 +11,7 @@ Bienvenue sur le dépôt **P_Web-Statique_Git**, réalisé dans le cadre du cour
 
 CODE_Projet/
 ├── auteur
-│   ├── index.html      → Tout les fichiers sont vide pour l'instant
+│   ├── index.html     
 │   └── style.css
 ├── contact
 │   ├── index.html
