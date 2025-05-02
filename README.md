@@ -11,27 +11,28 @@ Bienvenue sur le dépôt **P_Web-Statique_Git**, réalisé dans le cadre du cour
 
 CODE_Projet/
 ├── auteur
-│   ├── index.html     
-│   └── style.css
+│   ├── auteur.html     
+│   └── auteur.css
 ├── contact
-│   ├── index.html
-│   └── style.css
+│   ├── contact.html
+│   └── contact.css
 ├── gtav
-│   ├── index.html
-│   └── style.css
+│   ├── gtav.html
+│   └── gtav.css
 ├── map
-│   ├── index.html
-│   └── style.css
+│   ├── map.html
+│   └── map.css
 ├── mention_legal
-│   ├── index.html
-│   └── style.css
+│   ├── mentionlegal.html
+│   └── mentionlegal.css
 ├── page_acceuil
 │   ├── index.html
 │   └── style.css
 ├── perso
-│   ├── index.html
-│   └── style.css
+│   ├── perso.html
+│   └── perso.css
 ├── rockstar
-│   ├── index.html
-│   └── style.css
+│   ├── rockstar.html
+│   └── rockstar.css
+├── stylegen.css
 README.md
