@@ -1,0 +1,73 @@
+
+
+#perso {
+    width: 139px;
+    height: 41px;
+}
+
+#map {
+    width: 76px;
+    height: 41px;
+}
+
+#rockstar {
+    height: 41px;
+    width: 138px;
+}
+
+#gta {
+    width: 90px;
+    height: 41px;
+}
+
+#auteur {
+    width: 103px;
+    height: 41px;
+}
+
+#contact {
+    width: 103px;
+    height: 41px;
+}
+
+.grid-item {
+    background-color: #B87274;
+    border-radius: 50px;
+    width: 645px;
+    height: auto;
+    text-align: center;
+    font-size: 32px;
+    padding: 40px;
+    color: white;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+#grid{
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    grid-template-areas: 
+    "a . b"
+    "c . d"
+    ". e .";
+
+    grid-template-columns: auto 1rem auto;
+}
+
+#par1{
+    margin-top: 20px;
+    grid-area: a;
+}
+#par2{
+    grid-area: b;
+}
+#par3{
+    grid-area: c;
+}
+#par4{
+    grid-area: d;
+}
+#par5{
+    margin-bottom: 20px;
+    grid-area: e;
+}

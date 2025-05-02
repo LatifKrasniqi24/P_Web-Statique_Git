@@ -1,0 +1,40 @@
+
+  #perso {
+    width: 139px;
+    height: 41px;
+  }
+  
+  #rockstar {
+    height: 41px;
+    width: 138px;
+  }
+
+  #gta {
+    width: 90px;
+    height: 41px;
+  }
+  
+  #mention {
+    width: 161px;
+    height: 41px;
+  }
+  
+  #auteur {
+    width: 103px;
+    height: 41px;
+  }
+  
+  #contact {
+    width: 103px;
+    height: 41px;
+  }
+
+  #map{
+    margin-top:20px;
+    height: 1800px;
+    margin-left: 250px;
+    border-radius: 50px;
+    margin-bottom:20px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+
+  }

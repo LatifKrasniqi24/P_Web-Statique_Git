@@ -1,0 +1,74 @@
+#perso {
+  width: 139px;
+  height: 41px;
+}
+
+#map {
+  width: 76px;
+  height: 41px;
+}
+
+#rockstar {
+  height: 41px;
+  width: 138px;
+}
+
+
+#mention {
+  width: 161px;
+  height: 41px;
+}
+
+#auteur {
+  width: 103px;
+  height: 41px;
+}
+
+#contact {
+  width: 103px;
+  height: 41px;
+}
+
+
+.grid-item {
+    width: 590px;
+    font-size: 20px;
+    padding: 40px;
+    padding-bottom: 40px;
+}
+
+.image-GTAV{
+  width:320px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  border-radius: 50px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+#grid {
+  display: grid;
+  place-items: center;
+  gap: 20px;
+  padding: 0 10em;
+  grid-template-areas: 
+  ". . . c"
+  "a a b c"
+  "a a b d"
+  ". . . d";
+}
+
+#text{
+  grid-area: a;
+}
+
+#img1{
+  grid-area: b;
+}
+
+#img2{
+  grid-area: c;
+}
+
+#img3{
+  grid-area:d;
+}

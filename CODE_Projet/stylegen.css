@@ -13,7 +13,6 @@ body {
     display: flex;
     align-items: center;
     padding: 0 20px;
-    margin-bottom:20px;
   }
   
   header h1 {
@@ -54,24 +53,12 @@ body {
     box-sizing: border-box;
   }
 
-  #map {
-    width: 76px;
-    height: 41px;
-  }
-  
-  #rockstar {
-    height: 41px;
-    width: 138px;
-  }
-
-  #gta {
-    width: 90px;
-    height: 41px;
-  }
-
   footer {
     background-color: #c66461;
     color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
     height: 97px;
     display: flex;
@@ -100,80 +87,12 @@ body {
     background-color: #f09a9e;
     cursor: pointer;
   }
-  
-  #mention {
-    width: 161px;
-    height: 41px;
-  }
-  
-  #auteur {
-    width: 103px;
-    height: 41px;
-  }
-  
-  #contact {
-    width: 103px;
-    height: 41px;
-  }
 
-  .grid-item {
-    background-color: #B87274;
-    /*padding: 1rem;*/
-    border-radius: 50px;
-    width: 645px;
-    height: auto ;
-    /*margin-left: 160px;
-    margin-top: 18vh;*/
-    text-align: center;
-    font-size: 32px;
-    padding: 40px;
-    color: white;
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
-}
-
-#frank{
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
-    border-radius: 50px;
-    height:707px;
-    width:auto;
-}
-
-#grid{
-    display: grid;
-    place-items: center;
-    gap: 20px;
-    padding: 0 10em;
-    grid-template-areas: 
-    "a b"
-    "c d"
-    "e f"
-    "g h";
-}
-
-#text1{
-    grid-area: a;
-    height: auto;
-    margin-bottom:20px;
-}
-
-#text2{
-    height: auto;
-}
-
-#mich{
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
-    border-radius: 50px;
-    height:707px;
-    width:auto;
-}
-
-#text3{
-    height: auto;
-}
-
-#trev{
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
-    border-radius: 50px;
-    height:707px;
-    width:auto;
+.grid-item{
+  background-color: #B87274;
+  color: white;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+  border-radius: 50px;
+  height: auto;
+  text-align: center;
 }
