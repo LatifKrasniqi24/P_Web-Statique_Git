@@ -1,0 +1,36 @@
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+#contact {
+    width: 103px;
+    height: 41px;
+  }
+
+  #perso {
+    width: 139px;
+    height: 41px;
+  }
+  
+  #rockstar {
+    height: 41px;
+    width: 138px;
+  }
+
+  #gta {
+    width: 90px;
+    height: 41px;
+  }
+  
+  #mention {
+    width: 161px;
+    height: 41px;
+  }
+
+  #map {
+    width: 76px;
+    height: 41px;
+  }
+
+  
