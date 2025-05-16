@@ -1,36 +1,65 @@
 footer {
-    position: fixed;
-    bottom: 0;
+  position: fixed;
+  bottom: 0;
 }
 
 #contact {
-    width: 103px;
-    height: 41px;
-  }
+  width: 103px;
+  height: 41px;
+}
 
-  #perso {
-    width: 139px;
-    height: 41px;
-  }
-  
-  #rockstar {
-    height: 41px;
-    width: 138px;
-  }
+#perso {
+  width: 139px;
+  height: 41px;
+}
 
-  #gta {
-    width: 90px;
-    height: 41px;
-  }
-  
-  #mention {
-    width: 161px;
-    height: 41px;
-  }
+#rockstar {
+  height: 41px;
+  width: 138px;
+}
 
-  #map {
-    width: 76px;
-    height: 41px;
-  }
+#gta {
+  width: 90px;
+  height: 41px;
+}
 
-  
+#mention {
+  width: 161px;
+  height: 41px;
+}
+
+#map {
+  width: 76px;
+  height: 41px;
+}
+
+#img1 {
+  border-radius: 50px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+  width: auto;
+  height: 660px;
+  grid-area: b;
+}
+
+#grid {
+  display: grid;
+  place-items: center;
+  gap: 20px;
+  grid-template-areas: "a b";
+  grid-template-columns: auto 1rem auto;
+
+  margin-top: 1.7rem;
+}
+
+#text {
+  background-color: #b87274;
+  border-radius: 50px;
+  width: 590px;
+  height: auto;
+  text-align: center;
+  font-size: 20px;
+  padding: 40px;
+  color: white;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+  grid-area: a;
+}

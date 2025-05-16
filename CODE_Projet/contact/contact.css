@@ -1,0 +1,64 @@
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+#perso {
+  width: 139px;
+  height: 41px;
+}
+
+#rockstar {
+  height: 41px;
+  width: 138px;
+}
+
+#gta {
+  width: 90px;
+  height: 41px;
+}
+
+#mention {
+  width: 161px;
+  height: 41px;
+}
+
+#auteur {
+  width: 103px;
+  height: 41px;
+}
+
+#map {
+  width: 76px;
+  height: 41px;
+}
+
+#info{
+    font-size: 36px;
+    padding: 60px;
+}
+
+section{
+    display: flex;
+}
+
+form {
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 40px 20rem;
+}
+
+#nom input, #prenom input, #email input, #tel input{
+    background: #DDCDCD;
+    border-radius: 20px;
+    width: 330px;
+    height: 50px;
+    border: none;
+    padding: 1.5rem;
+    font-size: 17px;
+    /*retoure d'ou tu viens: .;raciste + CAPITALISTE + mefou + cope + ratio + who care + adrenaline + nanodrenaline + balkan rage + jamaican smile + german stare  + albert moment + rust + gaby + llyek + labyrinth */
+
+}
