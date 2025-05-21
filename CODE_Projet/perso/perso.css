@@ -1,33 +1,11 @@
-  #map {
-    width: 76px;
-    height: 41px;
-  }
+#perso{
   
-  #rockstar {
-    height: 41px;
-    width: 138px;
-  }
+  background-color: #f09a9e;;
+}
 
-  #gta {
-    width: 90px;
-    height: 41px;
-  }
-
-  
-  #mention {
-    width: 161px;
-    height: 41px;
-  }
-  
-  #auteur {
-    width: 103px;
-    height: 41px;
-  }
-  
-  #contact {
-    width: 103px;
-    height: 41px;
-  }
+#perso:hover{
+  background-color: #b87274;
+}
 
   .grid-item {
     background-color: #B87274;

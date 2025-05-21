@@ -2,6 +2,42 @@ body {
   font-family: helvetica, sans-serif;
 }
 
+#perso {
+  width: 139px;
+  height: 41px;
+}
+
+#map {
+  width: 76px;
+  height: 41px;
+}
+
+#rockstar {
+  height: 41px;
+  width: 150px;
+}
+
+
+#mention {
+  width: 161px;
+  height: 41px;
+}
+
+#auteur {
+  width: 103px;
+  height: 41px;
+}
+
+#contact {
+  width: 103px;
+  height: 41px;
+}
+
+  #gta {
+    width: 90px;
+    height: 41px;
+  }
+
 header {
   top: 0;
   left: 0;
@@ -34,7 +70,10 @@ header nav {
 }
 
 header button {
+  transition: 0.2s;
   border: none;
+  border: 2px solid black;
+  border-color: #7c4d4f;
   background-color: #b87274;
   color: white;
   margin-right: 0;
@@ -73,7 +112,10 @@ footer nav {
 }
 
 footer button {
+  transition: 0.2s;
   border: none;
+  border: 2px solid black;
+  border-color: #7c4d4f;
   background-color: #b87274;
   color: white;
   margin-right: 0;
