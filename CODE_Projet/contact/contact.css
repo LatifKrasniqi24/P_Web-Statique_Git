@@ -5,7 +5,6 @@ footer {
 
 #contact {
   background-color: #f09a9e;
-  ;
 }
 
 #contact:hover {
@@ -13,15 +12,21 @@ footer {
 }
 
 #info {
-  font-size: 36px;
-  padding: 60px;
+  height: 200px;
+  font-size: 30px;
+  padding-left: 8rem;
+  padding-top: 3rem;
 }
 
-section {
-  display: flex;
+section > form {
+  display: grid;
+  grid-template:
+  "a b"
+  "c c"
+  / 1fr 1fr;
 }
 
-form {
+#grid {
   font-size: 1.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -34,21 +39,17 @@ form {
 #prenom input,
 #email input,
 #tel input {
-  background: #DDCDCD;
+  background: #ddcdcd;
   border-radius: 20px;
   width: 330px;
   height: 50px;
   border: none;
   padding: 1.5rem;
-  font-size: 17px;
+  font-size: 17px; 
 }
 
-#submit {
-  display: flex;
-  justify-content: center;
-  bottom: 0;
-  left: 0;
-}
-
-#com{
+#comsub {
+  width: 100%;
+  display: grid;
+  grid-area: 'c';
 }
