@@ -3,40 +3,43 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GTA V</title>
-  <link rel="icon" type="image/png" href="grand-theft-auto-gta-v-logo-grand-theft-auto-gta-v-icon-transparent-free-png.png" />
+  <link rel="icon" type="image/png"
+    href="grand-theft-auto-gta-v-logo-grand-theft-auto-gta-v-icon-transparent-free-png.png" />
   <link rel="stylesheet" href="gtav.css" />
   <link rel="stylesheet" href="../stylegen.css">
 </head>
 
 <body>
-<header>
-  <a href="../gtav/gtav.html"><img src="grand-theft-auto-gta-v-logo-grand-theft-auto-gta-v-icon-transparent-free-png.png" alt="GTA V Logo" id="logo" /></a>
-  <h1>GTA V</h1>
+  <header>
+    <a href="../gtav/gtav.html"><img
+        src="grand-theft-auto-gta-v-logo-grand-theft-auto-gta-v-icon-transparent-free-png.png" alt="GTA V Logo"
+        id="logo" /></a>
+    <h1>GTA V</h1>
 
-  <input type="checkbox" id="burger-toggle" class="burger-toggle">
-  <label for="burger-toggle" class="burger-menu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </label>
-  
-  <nav class="nav-menu">
-    <ul>
-      <li><a href="../gtav/gtav.html" id="gta1">GTA V</a></li>
-      <li><a href="../perso/perso.html" id="perso1">Personnages</a></li>
-      <li><a href="../map/map.html" id="map1">Maps</a></li>
-      <li><a href="../rockstar/rockstar.html" id="rockstar1">Rockstar Games</a></li>
-    </ul>
-  </nav>
-</header>
+    <nav class="nav-menu">
+       <label class="burger-menu"> 
+        <input type="checkbox"> 
+        <span></span> 
+        <span></span> 
+        <span></span> 
+      </label>
+      <ul id="main-navigation-ul">
+        <li><a href="../gtav/gtav.html" id="gta1">GTA V</a></li>
+        <li><a href="../perso/perso.html" id="perso1">Personnages</a></li>
+        <li><a href="../map/map.html" id="map1">Maps</a></li>
+        <li><a href="../rockstar/rockstar.html" id="rockstar1">Rockstar Games</a></li>
+      </ul>
+    </nav>
+  </header>
   <main>
     <section id="grid">
       <div class="grid-item" id="text">
         Grand Theft Auto V (GTA V) est un jeu d'action-aventure en monde
         ouvert développé par Rockstar North. Il plonge les joueurs dans Los
         Santos, une ville fictive inspirée de Los Angeles, où exploration
-        libre et récit complexe s’entremêlent. Le jeu se distingue par son
+        libre et récit complexe s'entremêlent. Le jeu se distingue par son
         système de multi-protagonistes, offrant plusieurs points de vue sur
         une histoire où les frontières entre bien et mal sont floues.
         Missions spectaculaires, environnement réaliste et ambiance
@@ -55,12 +58,16 @@
     <p>© 2025 GTA V. Tous droits réservés.</p>
     <nav>
       <ul>
-      <li><a href="../mention_legal/mentionlegal.html">Mentions légales</a></li>
-      <li><a href="../auteur/auteur.html">Auteur</button></a></li>
-      <li><a href="../contact/contact.html">Contact</a></li>
+        <li><a href="../mention_legal/mentionlegal.html">Mentions légales</a></li>
+        <li><a href="../auteur/auteur.html">Auteur</button></a></li>
+        <li><a href="../contact/contact.html">Contact</a></li>
       </ul>
     </nav>
   </footer>
+
+  <script src="script.js"></script>
+
+
 </body>
 
 </html>
