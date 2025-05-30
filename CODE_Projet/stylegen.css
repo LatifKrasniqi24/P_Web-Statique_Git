@@ -3,40 +3,75 @@ body {
 }
 
 #perso {
+  background-color: #f09a9e;
   width: 139px;
   height: 41px;
 }
 
 #map {
+  background-color: #f09a9e;
   width: 76px;
   height: 41px;
 }
 
 #rockstar {
+  background-color: #f09a9e;
   height: 41px;
   width: 150px;
 }
 
 
 #mention {
+  background-color: #f09a9e;
   width: 161px;
   height: 41px;
 }
 
 #auteur {
+  background-color: #f09a9e;
   width: 103px;
   height: 41px;
 }
 
 #contact {
+  background-color: #f09a9e;
   width: 103px;
   height: 41px;
 }
 
-  #gta {
-    width: 90px;
-    height: 41px;
-  }
+#gta {
+  background-color: #f09a9e;
+  width: 90px;
+  height: 41px;
+}
+
+#perso:hover {
+  background-color: #b87274;
+}
+
+#map:hover {
+  background-color: #b87274;
+}
+
+#rockstar:hover {
+  background-color: #b87274;
+}
+
+#mention:hover {
+  background-color: #b87274;
+}
+
+#auteur:hover {
+  background-color: #b87274;
+}
+
+#contact:hover {
+  background-color: #b87274;
+}
+
+#gtav:hover {
+  background-color: #b87274;
+}
 
 header {
   top: 0;
