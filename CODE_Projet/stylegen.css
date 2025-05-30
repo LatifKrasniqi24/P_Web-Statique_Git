@@ -80,14 +80,14 @@ nav ul {
 }
 
 nav a {
+  padding: 10px;
   text-decoration: none;
   color: white
 }
 
 nav a:hover {
-  padding: 5px;
   background-color: #f67f7b;
-  text-decoration: underline;
+  border-radius: 50px;
 }
 
 * {

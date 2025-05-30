@@ -41,3 +41,23 @@ footer {
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
   grid-area: a;
 }
+
+@media screen and (max-width: 1000px) {
+  #grid {
+    grid-template-areas: 
+    "a" 
+    "b";
+    padding: 0 2em;
+  }
+
+  #text {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  #img1 {
+    width: 100%;
+    height: auto;
+  }
+}

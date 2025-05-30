@@ -66,3 +66,31 @@
     height:707px;
     width:auto;
 }
+
+@media screen and (max-width: 1000px) {
+    #grid {
+        padding: 0 1em;
+        grid-template-areas:
+        "a"
+        "b"
+        "c"
+        "d"
+        "e"
+        "f"
+        "g"
+        "h";
+    }
+    
+    .grid-item {
+        width: 100%;
+        max-width: 590px;
+        font-size: 1.25rem;
+        padding: 2em;
+        box-sizing: border-box;
+    }
+    
+    #frank, #mich, #trev {
+        width: 100%;
+        height: auto;
+    }
+}

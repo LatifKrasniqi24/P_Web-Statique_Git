@@ -18,3 +18,11 @@ section {
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 1000px) {
+  #mapimg {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+  }
+}

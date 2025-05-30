@@ -47,3 +47,26 @@
     margin-bottom: 20px;
     grid-area: e;
 }
+
+@media screen and (max-width: 1000px){
+    #grid {
+        grid-template-areas: 
+        "a"
+        "b"
+        "c"
+        "d"
+        "e";
+        padding: 0 2em;
+    }
+
+    .grid-item {
+        width: 100%;
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    #img1 {
+        width: 100%;
+        height: auto;
+    }
+}
